@@ -1,5 +1,10 @@
 class StringCalculator{
+
+  public static int count=0;	
+	
+	
   public static int Add(String numbers){
+    count++:	  
     if(numbers.length()==0)
        return 0;
     else{
@@ -32,7 +37,11 @@ class StringCalculator{
       return sum;
     }
   }
+	
+
+	
   public static void main(String []args){
     System.out.println(Add("1,2"));
+    System.out.println(count);
   }
 }
