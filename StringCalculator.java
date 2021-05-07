@@ -4,7 +4,7 @@ class StringCalculator{
 	
 	
   public static int Add(String numbers){
-    count++:	  
+    count++; 
     if(numbers.length()==0)
        return 0;
     else{
